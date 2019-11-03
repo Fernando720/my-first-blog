@@ -1,11 +1,13 @@
-<div>
-    <h1><a href="/">Blog do Fernando em Django</a></h1>
-</div>
-
-{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
+<html>
+    <head>
+        <title>Blog do Tiozão</title>
+    </head>
+    <body>
+        <div> 
+        <h1><a href="/"></a>Fernando do blog</a></h1>
+        </div>
+        <p>Publicado em 03/11/2019.</p>
+        <h2>Minha primeira publicação</h2> 
+        <p>Olá mundo, meu html está funcionando. Isto significa que aprendi algo. MASSA!!!</p>
+    </body>
+</html>
